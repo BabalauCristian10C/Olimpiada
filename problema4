@@ -17,7 +17,7 @@ count_pills = 0
 dif = []
 while count < n:
     d = inlt
-    inlt = int(input("Intoduceti inaltimea scarilor in ordine crescatoare -"))
+    inlt = int(input("Intoduceti inaltimea scarilor in ordine crescatoare -")) 
     if inlt > d:
         count+=1
         if inlt - d > 1:
