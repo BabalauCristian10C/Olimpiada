@@ -1,3 +1,10 @@
+"""Problema 2
+Se citesc de la tastatură N numere naturale până când suma numerelor pare este mai mare decît K. Căte numere au fost
+întroduse şi care este suma numerelor pare?
+
+ Exemplu: Date de intrare: K=12 Numerela întroduse: 5 8 1 2 2 3 6
+ Date de ieşire: 7 (numere) 18 (suma numerelor pare)"""
+
 k = int(input("k = "))
 par = 0
 n = 0
