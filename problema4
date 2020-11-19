@@ -1,3 +1,15 @@
+"""Problema 4
+Un pitic vrea să urce o scară care are N trepte de înălţimi date, ordonate crescător. Înălţimile treptelor sunt în cm şi sunt valori
+întregi. Acolo unde diferenţa între două trepte consecutive este de 1 cm piticul urcă fără dificultăţi, unde diferenţa este mai mare
+decât 1 cm piticul trebuie să ia o pastilă care îi dă putere să sară pe treapta următoare. Cunoscând înălţimile treptelor, prima fiind
+obligatoriu 0, piticul vrea să afle care este numărul minim de pastile de care are nevoie pentru a urca scara şi de asemenea care
+este cea mai mare diferenţă dintre două trepte consecutive.
+
+ Exemplu: pentru n=9 şi înălţimile treptelor 0 3 4 6 7 10 19 20 21,
+ se va afişa: numar minim de pastile =4 diferenta maxima=9"""
+
+
+
 n = int(input("Introduceti un numar de trepte -"))
 count = 0
 inlt = -1
