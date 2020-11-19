@@ -1,3 +1,10 @@
+'''Problema 1
+Se dau două numere formate din acelaşi număr de cifre (de la 1 pînă la 9999). Cîte cifre trebuie modificate pentru a transforma
+un număr în celălalt?
+Exemplu: Date de intrare - N1=2135 N2=7139
+Date de ieşire - 2 cifre.'''
+
+
 n1 = int(input("N1 = "))
 n2 = int(input("N2 = "))
 nn1 = []
@@ -13,4 +20,4 @@ while count < len(nn1):
     if nn1[count] != nn2[count]:
         x+=1
     count+=1
-print(x)
+print(x, 'cifre')
