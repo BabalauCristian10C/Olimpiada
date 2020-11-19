@@ -1,0 +1,16 @@
+n1 = int(input("N1 = "))
+n2 = int(input("N2 = "))
+nn1 = []
+nn2 = []
+count = 0
+x= 0
+for cifre in str(n1):
+    nn1.append(cifre)
+for cifre in str(n2):
+    nn2.append(cifre)
+
+while count < len(nn1):
+    if nn1[count] != nn2[count]:
+        x+=1
+    count+=1
+print(x)
