@@ -1,0 +1,28 @@
+Problema 1
+Se dau două numere formate din acelaşi număr de cifre (de la 1 pînă la 9999). Cîte cifre trebuie modificate pentru a transforma
+un număr în celălalt?
+
+ Exemplu: Date de intrare - N1=2135 N2=7139
+ Date de ieşire - 2 cifre.
+Problema 2
+Se citesc de la tastatură N numere naturale până când suma numerelor pare este mai mare decît K. Căte numere au fost
+întroduse şi care este suma numerelor pare?
+
+ Exemplu: Date de intrare: K=12 Numerela întroduse: 5 8 1 2 2 3 6
+ Date de ieşire: 7 (numere) 18 (suma numerelor pare)
+Problema 3
+Pentru a descoperi numărul cheii ce trebuie să o folosească pentru a putea să o elibereze pe Ileana Cosînzeana, Făt-Frumos are
+de rezolvat următoarea problemă: Pentru numărul citit pe uşă, trebuie să calculeze suma divizorilor şi, dacă această sumă este
+un număr prim, atunci codul este egal cu suma cifrelor numărului citit. În caz contrar, codul este egal cu suma cifrelor
+impare ale numărului citit. Ajutaţi-l pe erou să descopere numărul cheii.
+ Exemple: Date de intrare 472 Date de ieşire cheia 7
+ Date de intrare 4 Date de ieşire cheia 4.
+Problema 4
+Un pitic vrea să urce o scară care are N trepte de înălţimi date, ordonate crescător. Înălţimile treptelor sunt în cm şi sunt valori
+întregi. Acolo unde diferenţa între două trepte consecutive este de 1 cm piticul urcă fără dificultăţi, unde diferenţa este mai mare
+decât 1 cm piticul trebuie să ia o pastilă care îi dă putere să sară pe treapta următoare. Cunoscând înălţimile treptelor, prima fiind
+obligatoriu 0, piticul vrea să afle care este numărul minim de pastile de care are nevoie pentru a urca scara şi de asemenea care
+este cea mai mare diferenţă dintre două trepte consecutive.
+
+ Exemplu: pentru n=9 şi înălţimile treptelor 0 3 4 6 7 10 19 20 21,
+ se va afişa: numar minim de pastile =4 diferenta maxima=9
