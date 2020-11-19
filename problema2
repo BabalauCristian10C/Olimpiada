@@ -1,0 +1,16 @@
+k = int(input("k = "))
+par = 0
+n = 0
+i=0
+
+def calc(k):
+    global par, n , i
+    while par < k or par == k:
+        n = int(input("Intr un numar "))
+        if n % 2 == 0:
+            par += n
+            i+=1
+        else:
+            i+=1
+    print(f"numere {i}  suma numerelor pare{par}")
+calc(k)
