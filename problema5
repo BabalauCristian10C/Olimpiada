@@ -1,0 +1,9 @@
+``` Ionel vopseste treptele cu 3 culori: albastru, verde rosu consecutiv.....````
+
+
+n = int(input("Introduceti numarul de trepte"))
+cul = ["\033[31m Rosu", "\033[36m Albastru", "\033[32m Verde", ]
+
+cnt = 0
+
+print(cul[n%3])
