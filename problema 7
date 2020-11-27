@@ -1,0 +1,51 @@
+n,m,k = input("Introduceti datele sub forma Randuri/Copaci pe rand/Timp").split()
+n, m = int(n), int(m)
+rand = []
+c = 0
+x = m*n
+strings = 0
+
+while strings < n:
+    rand.append([])
+    strings+=1
+
+str_count = 0
+
+temp1 = n
+temp = 0
+
+while c < x:
+    mere = int(input("Nr "))
+    rand[str_count].append(mere)
+    temp+=1
+    if temp == m:
+        str_count += 1
+        temp = 0
+    c+=1
+to_be_changed = []
+
+if n >1:
+    for i in range(0, len(rand)):
+        if i % 2 == 1:
+            to_be_changed.append(i)
+i = 0
+
+for elements in to_be_changed:
+    rand[elements] = list(reversed(rand[elements]))
+k = int(k)
+time = 0
+
+general = []
+for elem in rand:
+    for el in elem:
+        general.append(el)
+
+for values in general:
+    if time < k:
+        time += (values * 0.33) + 1
+        i+=1
+
+print(i-1, general[i-2]) # numarul pomului la care ajunge
+
+
+print(rand)
